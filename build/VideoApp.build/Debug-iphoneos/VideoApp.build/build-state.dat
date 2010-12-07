@@ -1,0 +1,803 @@
+TVideoApp
+v7
+r0
+t312483780.930677
+cCheck dependencies
+cCpResource build/Debug-iphoneos/VideoApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist VideoApp-Info.plist
+cCompileXIB /Users/colinb/Desktop/VideoApp/MainWindow.xib
+cCompileXIB /Users/colinb/Desktop/VideoApp/VideoAppViewController.xib
+cCopyPNGFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/playButton.png playButton.png
+cCopyPNGFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/background.png background.png
+cProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch.gch VideoApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch.gch VideoApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/main.o /Users/colinb/Desktop/VideoApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/CustomMoviePlayerViewController.o /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppAppDelegate.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppViewController.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/main.o /Users/colinb/Desktop/VideoApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/CustomMoviePlayerViewController.o /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp normal armv6
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppAppDelegate.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppViewController.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp normal armv7
+cCreateUniversalBinary /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp normal "armv6 armv7"
+cGenerateDSYMFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app.dSYM /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp
+cProcessProductPackaging "/Users/colinb/Library/MobileDevice/Provisioning Profiles/1552CF52-0889-4712-826A-451451749BF8.mobileprovision" /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision
+cTouch /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent
+cCodeSign /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CEF95740000000000000110
+t1290769780
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004CC247E70000000000000294
+t1287800807
+s660
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTCoreTypes.h
+c000000004CC11068000000000000520D
+t1287721064
+s21005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC110680000000000094AF0
+t1287721064
+s609008
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.h
+c000000004CEFE7B20000000000000186
+t1290790834
+s390
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m
+c000000004CEFE8480000000000001386
+t1290790984
+s4998
+i"CustomMoviePlayerViewController.h"
+
+N/Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.h
+c000000004A6F490E00000000000001E9
+t1248807182
+s489
+i<UIKit/UIKit.h>
+
+N/Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.h
+c000000004CEFD65200000000000002BA
+t1290786386
+s698
+i<UIKit/UIKit.h>
+i"MediaPlayer/MediaPlayer.h"
+i<MobileCoreServices/UTCoreTypes.h>
+
+N/Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.h
+c000000004CEFDBB90000000000000182
+t1290787769
+s386
+i<UIKit/UIKit.h>
+
+N/Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m
+c000000004CEFDBF20000000000000209
+t1290787826
+s521
+i"VideoAppAppDelegate.h"
+i"VideoAppViewController.h"
+
+N/Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.h
+c000000004CEFDBDE0000000000000256
+t1290787806
+s598
+i<UIKit/UIKit.h>
+i"MediaPlayer/MediaPlayer.h"
+i<MobileCoreServices/UTCoreTypes.h>
+
+N/Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m
+c000000004CEFDBD30000000000000797
+t1290787795
+s1943
+i"VideoAppViewController.h"
+i"CustomMoviePlayerViewController.h"
+i<MediaPlayer/MediaPlayer.h>
+
+N/Users/colinb/Desktop/VideoApp/MainWindow.xib
+c000000004CEFDC5200000000000054BE
+t1290787922
+s21694
+
+N/Users/colinb/Desktop/VideoApp/PhotoAppViewController.xib
+c000000004CEFD66E00000000000056A6
+t1290786414
+s22182
+
+N/Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/colinb/Desktop/VideoApp/VideoAppViewController.xib
+c000000004CEFD66E00000000000056A6
+t1290786414
+s22182
+
+N/Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch
+c000000004CEFDBCA00000000000000B9
+t1290787786
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/colinb/Desktop/VideoApp/background.png
+c000000004CEFD2FA00000000000068EC
+t1290785530
+s26860
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+t1290790980
+s442
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app.dSYM
+t1290790979
+s102
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist
+t1290790649
+s785
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/MainWindow.nib
+t1290790652
+s1101
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/PhotoAppViewController.nib
+t1290787234
+s1891
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/PkgInfo
+t1290790649
+s8
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/ResourceRules.plist
+t1290790649
+s485
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp
+t1290790979
+s72608
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoAppViewController.nib
+t1290790652
+s1891
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/background.png
+t1290790654
+s28324
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision
+t1290790657
+s9494
+
+N/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/playButton.png
+t1290790654
+s7157
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/CustomMoviePlayerViewController.o
+t1290790979
+s54160
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppAppDelegate.o
+t1290787056
+s48456
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppViewController.o
+t1290787056
+s51128
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp
+t1290790979
+s29800
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp.LinkFileList
+c000000004CEFE6F900000000000001F4
+t1290790649
+s500
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppAppDelegate.o
+t1290790656
+s48456
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppViewController.o
+t1290790840
+s51828
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/main.o
+t1290790656
+s6428
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/CustomMoviePlayerViewController.o
+t1290790979
+s53936
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppAppDelegate.o
+t1290787056
+s48388
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppViewController.o
+t1290787056
+s51020
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp
+t1290790979
+s25700
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp.LinkFileList
+c000000004CEFE6F900000000000001F4
+t1290790649
+s500
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppAppDelegate.o
+t1290790656
+s48388
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppViewController.o
+t1290790841
+s51720
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/main.o
+t1290790656
+s6412
+
+N/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent
+t1290790657
+s422
+
+N/Users/colinb/Desktop/VideoApp/main.m
+c000000004CEFD7FF0000000000000104
+t1290786815
+s260
+i<UIKit/UIKit.h>
+
+N/Users/colinb/Desktop/VideoApp/playButton.png
+c000000004C34CDF60000000000001D40
+t1278529014
+s7488
+
+N/Users/colinb/Library/MobileDevice/Provisioning Profiles/1552CF52-0889-4712-826A-451451749BF8.mobileprovision
+c000000004CAC88EC0000000000002516
+t1286375660
+s9494
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/PhotoApp_Prefix.pch.gch
+t1290787237
+s10446552
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/PhotoApp_Prefix.pch.gch
+t1290787236
+s9983704
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-ckjbkozwvruvgvdprbancwudvzie/PhotoApp_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-dxeiporupobmcackqgliidctglfa/PhotoApp_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/VideoApp_Prefix.pch.gch
+t1290787833
+s10446552
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch.gch
+t1290790655
+s10446552
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/VideoApp_Prefix.pch.gch
+t1290787833
+s9983704
+
+N/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch.gch
+t1290790655
+s9983704
+
+NPhotoApp-Info.plist
+c000000004A6F3E9F000000000000038D
+t1248804511
+s909
+
+NVideoApp-Info.plist
+c000000004A6F3E9F000000000000038D
+t1248804511
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312483778#312483779#0(0"0(0#1#0"2459611792#0"0#
+
+CCodeSign /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+s312483780.035983
+e312483780.930445
+r1
+xCodeSign
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/VideoApp.app312483780#312483780#0(0"0(0#0#64"/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app2459611792#619"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Colin Bell (7ZWQ3Y3D59)" --resource-rules=/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/ResourceRules.plist --entitlements /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/CustomMoviePlayerViewController.o /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312483778.853251
+e312483779.572157
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/CustomMoviePlayerViewController.o
+x/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController moviePreloadDidFinish:]':
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:76: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController readyPlayer]':
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: 'MPMoviePlayerController' may not respond to '-setAllowsWirelessPlayback:'
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: (Messages without a matching method signature
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: will be assumed to return 'id' and accept
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: '...' as arguments.)
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:119: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)
+lSLF07#2@80"Compile /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#312483779#0(1458"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController moviePreloadDidFinish:]':/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:76: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController readyPlayer]':/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: 'MPMoviePlayerController' may not respond to '-setAllowsWirelessPlayback:'/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: (Messages without a matching method signature/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: will be assumed to return 'id' and accept/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: '...' as arguments.)/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:119: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)4(22@234"'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)312483779#147#321#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#76#0#76#0#33"'*' is deprecated (declared at *)0(22@74"'MPMoviePlayerController' may not respond to '-setAllowsWirelessPlayback:'312483779#604#162#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#112#0#112#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312483779#766#133#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#112#0#112#0#0"0(22@234"'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)312483779#1136#322#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#119#0#119#0#33"'*' is deprecated (declared at *)0(0#0#72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m2459611792#1718"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/CustomMoviePlayerViewController.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppAppDelegate.o /Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312479855.800437
+e312479856.032255
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppAppDelegate.o
+x/Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m312479855#312479856#0(0"0(0#0#60"/Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m2459611792#1694"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/PhotoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppAppDelegate.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppViewController.o /Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312479855.984191
+e312479856.152466
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppViewController.o
+x/Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m312479855#312479856#0(0"0(0#0#63"/Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m2459611792#1700"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/PhotoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/PhotoAppViewController.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppAppDelegate.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312483456.305111
+e312483456.560240
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppAppDelegate.o
+x/Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m312483456#312483456#0(0"0(0#0#60"/Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m2459611792#1694"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppAppDelegate.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppViewController.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312483640.668069
+e312483641.005886
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppViewController.o
+x/Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m312483640#312483641#0(0"0(0#0#63"/Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m2459611792#1700"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoAppViewController.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/main.o /Users/colinb/Desktop/VideoApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312483456.030772
+e312483456.304727
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/main.o
+x/Users/colinb/Desktop/VideoApp/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/colinb/Desktop/VideoApp/main.m312483456#312483456#0(0"0(0#0#37"/Users/colinb/Desktop/VideoApp/main.m2459611792#1656"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/main.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/CustomMoviePlayerViewController.o /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312483778.915566
+e312483779.586820
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/CustomMoviePlayerViewController.o
+x/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController moviePreloadDidFinish:]':
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:76: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController readyPlayer]':
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: 'MPMoviePlayerController' may not respond to '-setAllowsWirelessPlayback:'
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: (Messages without a matching method signature
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: will be assumed to return 'id' and accept
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: '...' as arguments.)
+o/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:119: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)
+lSLF07#2@80"Compile /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#312483779#0(1458"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController moviePreloadDidFinish:]':/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:76: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m: In function '-[CustomMoviePlayerViewController readyPlayer]':/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: 'MPMoviePlayerController' may not respond to '-setAllowsWirelessPlayback:'/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: (Messages without a matching method signature/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: will be assumed to return 'id' and accept/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:112: warning: '...' as arguments.)/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m:119: warning: 'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)4(22@234"'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)312483779#147#321#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#76#0#76#0#33"'*' is deprecated (declared at *)0(22@74"'MPMoviePlayerController' may not respond to '-setAllowsWirelessPlayback:'312483779#604#162#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#112#0#112#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312483779#766#133#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#112#0#112#0#0"0(22@234"'MPMoviePlayerContentPreloadDidFinishNotification' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h:294)312483779#1136#322#0(6@72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m312483778#119#0#119#0#33"'*' is deprecated (declared at *)0(0#0#72"/Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m2459611792#1718"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/CustomMoviePlayerViewController.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/CustomMoviePlayerViewController.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppAppDelegate.o /Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312479856.365937
+e312479856.495750
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppAppDelegate.o
+x/Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m312479856#312479856#0(0"0(0#0#60"/Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m2459611792#1694"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/PhotoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/PhotoAppAppDelegate.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppAppDelegate.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppViewController.o /Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312479856.376015
+e312479856.576730
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppViewController.o
+x/Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m312479856#312479856#0(0"0(0#0#63"/Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m2459611792#1700"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/PhotoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/PhotoAppViewController.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/PhotoAppViewController.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppAppDelegate.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312483456.684873
+e312483456.953062
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppAppDelegate.o
+x/Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m312483456#312483456#0(0"0(0#0#60"/Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m2459611792#1694"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/VideoAppAppDelegate.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppAppDelegate.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppViewController.o /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312483641.400527
+e312483641.604974
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppViewController.o
+x/Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m312483641#312483641#0(0"0(0#0#63"/Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m2459611792#1700"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/Classes/VideoAppViewController.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoAppViewController.o0#
+
+CCompileC build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/main.o /Users/colinb/Desktop/VideoApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312483456.548665
+e312483456.684727
+r1
+xCompileC
+xbuild/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/main.o
+x/Users/colinb/Desktop/VideoApp/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/colinb/Desktop/VideoApp/main.m312483456#312483456#0(0"0(0#0#37"/Users/colinb/Desktop/VideoApp/main.m2459611792#1656"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -include /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch -c /Users/colinb/Desktop/VideoApp/main.m -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/colinb/Desktop/VideoApp/MainWindow.xib
+s312483449.172695
+e312483452.250422
+r1
+xCompileXIB
+x/Users/colinb/Desktop/VideoApp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312483449#312483452#0(0"0(0#0#45"/Users/colinb/Desktop/VideoApp/MainWindow.xib2459611792#519"    cd /Users/colinb/Desktop/VideoApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/MainWindow.nib /Users/colinb/Desktop/VideoApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/colinb/Desktop/VideoApp/PhotoAppViewController.xib
+s312480033.317577
+e312480034.246055
+r1
+xCompileXIB
+x/Users/colinb/Desktop/VideoApp/PhotoAppViewController.xib
+lSLF07#2@37"CompileXIB PhotoAppViewController.xib312480033#312480034#0(0"0(0#0#57"/Users/colinb/Desktop/VideoApp/PhotoAppViewController.xib2459611792#543"    cd /Users/colinb/Desktop/VideoApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/PhotoAppViewController.nib /Users/colinb/Desktop/VideoApp/PhotoAppViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/colinb/Desktop/VideoApp/VideoAppViewController.xib
+s312483449.176557
+e312483454.128738
+r1
+xCompileXIB
+x/Users/colinb/Desktop/VideoApp/VideoAppViewController.xib
+lSLF07#2@37"CompileXIB VideoAppViewController.xib312483449#312483454#0(0"0(0#0#57"/Users/colinb/Desktop/VideoApp/VideoAppViewController.xib2459611792#543"    cd /Users/colinb/Desktop/VideoApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoAppViewController.nib /Users/colinb/Desktop/VideoApp/VideoAppViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/background.png background.png
+s312483454.128944
+e312483454.467324
+r1
+xCopyPNGFile
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/background.png
+xbackground.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/VideoApp.app/background.png background.png312483454#312483454#0(0"0(0#0#45"/Users/colinb/Desktop/VideoApp/background.png2459611792#545"    cd /Users/colinb/Desktop/VideoApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/colinb/Desktop/VideoApp/background.png /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/background.png0#
+
+CCopyPNGFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/playButton.png playButton.png
+s312483452.250617
+e312483454.171008
+r1
+xCopyPNGFile
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/playButton.png
+xplayButton.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/VideoApp.app/playButton.png playButton.png312483452#312483454#0(0"0(0#0#45"/Users/colinb/Desktop/VideoApp/playButton.png2459611792#545"    cd /Users/colinb/Desktop/VideoApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/colinb/Desktop/VideoApp/playButton.png /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/playButton.png0#
+
+CCpResource build/Debug-iphoneos/VideoApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s312483449.053586
+e312483449.172346
+r1
+xCpResource
+xbuild/Debug-iphoneos/VideoApp.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist312483449#312483449#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist2459611792#479"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app0#
+
+CCreateUniversalBinary /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp normal "armv6 armv7"
+s312483779.664649
+e312483779.671391
+r1
+xCreateUniversalBinary
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/VideoApp.app/VideoApp normal "armv6 armv7"312483779#312483779#0(0"0(0#0#42"/Users/colinb/Desktop/VideoApp/armv6 armv72459611792#494"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp -output /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp0#
+
+CGenerateDSYMFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app.dSYM /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp
+s312483779.671569
+e312483779.990007
+r1
+xGenerateDSYMFile
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app.dSYM
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/VideoApp.app.dSYM build/Debug-iphoneos/VideoApp.app/VideoApp312483779#312483779#0(0"0(0#0#73"/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp2459611792#341"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/VideoApp -o /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app.dSYM0#
+
+CLd /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp normal armv6
+s312483779.572296
+e312483779.658836
+r1
+xLd
+x/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp
+xnormal
+xarmv6
+lSLF07#2@116"Link /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp312483779#312483779#0(0"0(0#0#0"2459611792#902"    cd /Users/colinb/Desktop/VideoApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -filelist /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework MobileCoreServices -framework AVFoundation -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv6/VideoApp0#
+
+CLd /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp normal armv7
+s312483779.587229
+e312483779.664488
+r1
+xLd
+x/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp
+xnormal
+xarmv7
+lSLF07#2@116"Link /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp312483779#312483779#0(0"0(0#0#0"2459611792#902"    cd /Users/colinb/Desktop/VideoApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -filelist /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework MobileCoreServices -framework AVFoundation -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/Objects-normal/armv7/VideoApp0#
+
+CProcessInfoPlistFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist PhotoApp-Info.plist
+s312480033.197526
+e312480033.234027
+r1
+xProcessInfoPlistFile
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist
+xPhotoApp-Info.plist
+lSLF07#2@27"Process PhotoApp-Info.plist312480033#312480033#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/PhotoApp-Info.plist2459611792#534"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PhotoApp-Info.plist -genpkginfo /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/ResourceRules.plist -o /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist VideoApp-Info.plist
+s312483449.059354
+e312483449.172589
+r1
+xProcessInfoPlistFile
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist
+xVideoApp-Info.plist
+lSLF07#2@27"Process VideoApp-Info.plist312483449#312483449#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/VideoApp-Info.plist2459611792#534"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VideoApp-Info.plist -genpkginfo /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/ResourceRules.plist -o /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/Info.plist0#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/PhotoApp_Prefix.pch.gch PhotoApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312480034.670479
+e312480037.684894
+r1
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/PhotoApp_Prefix.pch.gch
+xPhotoApp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PhotoApp_Prefix.pch312480034#312480037#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/PhotoApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/PhotoApp_Prefix.pch.gch PhotoApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312480034.667654
+e312480037.153824
+r1
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/PhotoApp_Prefix.pch.gch
+xPhotoApp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PhotoApp_Prefix.pch312480034#312480037#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/PhotoApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-ckjbkozwvruvgvdprbancwudvzie/PhotoApp_Prefix.pch.gch PhotoApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312480340.484786
+e312480340.596728
+r0
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-ckjbkozwvruvgvdprbancwudvzie/PhotoApp_Prefix.pch.gch
+xPhotoApp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oarm-apple-darwin10-gcc-4.2.1: /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch: No such file or directory
+oarm-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+oarm-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@30"Precompile PhotoApp_Prefix.pch312480340#312480340#0(349"arm-apple-darwin10-gcc-4.2.1: /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch: No such file or directoryarm-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effectarm-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@96"Command /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1312480340#4294967295#0#0(1@0"0(0#0#50"/Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-ckjbkozwvruvgvdprbancwudvzie/PhotoApp_Prefix.pch.gch1#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-dxeiporupobmcackqgliidctglfa/PhotoApp_Prefix.pch.gch PhotoApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312480340.487545
+e312480340.596220
+r0
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-dxeiporupobmcackqgliidctglfa/PhotoApp_Prefix.pch.gch
+xPhotoApp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oarm-apple-darwin10-gcc-4.2.1: /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch: No such file or directory
+oarm-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+oarm-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@30"Precompile PhotoApp_Prefix.pch312480340#312480340#0(349"arm-apple-darwin10-gcc-4.2.1: /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch: No such file or directoryarm-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effectarm-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@96"Command /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1312480340#4294967295#0#0(1@0"0(0#0#50"/Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/PhotoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PhotoApp_Prefix-dxeiporupobmcackqgliidctglfa/PhotoApp_Prefix.pch.gch1#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/VideoApp_Prefix.pch.gch VideoApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312480631.370241
+e312480633.279543
+r1
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/VideoApp_Prefix.pch.gch
+xVideoApp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile VideoApp_Prefix.pch312480631#312480633#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-awyrcldxbaxyeacisqixdumagjas/VideoApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch.gch VideoApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312483454.469003
+e312483456.030619
+r1
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch.gch
+xVideoApp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile VideoApp_Prefix.pch312483454#312483456#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv7 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cfjpqjlutivdwpbmchjnziusyhig/VideoApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/VideoApp_Prefix.pch.gch VideoApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312480631.368212
+e312480633.296311
+r1
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/VideoApp_Prefix.pch.gch
+xVideoApp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile VideoApp_Prefix.pch312480631#312480633#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-cilziagnrmxzrncikkqabjkovuoc/VideoApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch.gch VideoApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312483454.467566
+e312483455.817010
+r1
+xProcessPCH
+x/var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch.gch
+xVideoApp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile VideoApp_Prefix.pch312483454#312483455#0(0"0(0#0#50"/Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch2459611792#1561"    cd /Users/colinb/Desktop/VideoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-generated-files.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-own-target-headers.hmap -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-all-target-headers.hmap -iquote /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp-project-headers.hmap -F/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos -I/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/include -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources/armv6 -I/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/DerivedSources -c /Users/colinb/Desktop/VideoApp/VideoApp_Prefix.pch -o /var/folders/G0/G0RFcCnzF4GeSlHe+OETP++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VideoApp_Prefix-dttdldarmtmlecevnoxjakxgicyr/VideoApp_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/colinb/Library/MobileDevice/Provisioning Profiles/1552CF52-0889-4712-826A-451451749BF8.mobileprovision" /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision
+s312483457.013462
+e312483457.062723
+r1
+xProcessProductPackaging
+x/Users/colinb/Library/MobileDevice/Provisioning Profiles/1552CF52-0889-4712-826A-451451749BF8.mobileprovision
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/colinb/Library/MobileDevice/Provisioning Profiles/1552CF52-0889-4712-826A-451451749BF8.mobileprovision" build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision312483457#312483457#0(0"0(0#0#89"/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision2459611792#409"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/colinb/Library/MobileDevice/Provisioning Profiles/1552CF52-0889-4712-826A-451451749BF8.mobileprovision" -o /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent
+s312483457.062835
+e312483457.108779
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent312483457#312483457#0(0"0(0#0#96"/Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent2459611792#419"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/colinb/Desktop/VideoApp/build/VideoApp.build/Debug-iphoneos/VideoApp.build/VideoApp.xcent0#
+
+CTouch /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+s312483779.990352
+e312483780.035726
+r1
+xTouch
+x/Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app
+lSLF07#2@70"Touch /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app312483779#312483780#0(0"0(0#0#0"2459611792#249"    cd /Users/colinb/Desktop/VideoApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/colinb/Desktop/VideoApp/build/Debug-iphoneos/VideoApp.app0#
+
